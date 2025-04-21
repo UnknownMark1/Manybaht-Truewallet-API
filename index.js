@@ -1,7 +1,7 @@
 var truewallet = require('./apis/truewallet');
 
 //ตัวอย่าง
-truewallet.redeemvouchers('0901234567', 'โค้ด/ลิงก์')
+truewallet.redeemvouchers(process.env.PHONE_NUMBER, 'โค้ด/ลิงก์')
 .then(res => {
     console.log(res);
 });
