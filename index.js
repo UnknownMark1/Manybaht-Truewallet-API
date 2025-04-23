@@ -49,6 +49,6 @@ async function redeemvouchers(phone_number, voucher_code) {
 }
 
 // ตัวอย่างการเรียกใช้
-redeemvouchers("0812345678", "https://gift.truemoney.com/campaign/?v=XXXXXX")
+redeemvouchers("0635198802", "https://gift.truemoney.com/campaign/?v=0196624d710a73e286f00ebc56aa8cf543G")
     .then(console.log)
     .catch(console.error);
